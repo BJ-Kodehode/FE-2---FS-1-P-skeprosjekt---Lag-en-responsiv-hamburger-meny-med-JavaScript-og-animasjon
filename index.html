@@ -17,39 +17,45 @@
     </button>
     <nav class="nav-menu" id="navMenu">
       <ul>
-        <li><a href="#">Meny</a></li>
-        <li><a href="#">Om oss</a></li>
-        <li><a href="#">Tilbud</a></li>
-        <li><a href="#">Kontakt</a></li>
+        <li><a href="#" data-page="home">Hjem</a></li>
+        <li><a href="#" data-page="meny">Meny</a></li>
+        <li><a href="#" data-page="omoss">Om oss</a></li>
+        <li><a href="#" data-page="tilbud">Tilbud</a></li>
+        <li><a href="#" data-page="kontakt">Kontakt</a></li>
       </ul>
     </nav>
     <div class="overlay" id="overlay"></div>
   </header>
 
   <main class="main-content">
-    <section>
+    <section id="page-home" class="page">
+      <h2>Velkommen til BurgerBar!</h2>
+      <p>🍔 Vi serverer gatekjøkkenmat med kvalitet og kjærlighet.</p>
+    </section>
+
+    <section id="page-meny" class="page hidden">
+      <h2>Vår Meny</h2>
+      <ul class="menu-list">
+        <li>🍔 Klassisk Hamburger - 79 kr</li>
+        <li>🧀 Cheeseburger - 85 kr</li>
+        <li>🍟 Pommes Frites (stor) - 35 kr</li>
+        <li>🥤 Milkshake Vanilje - 49 kr</li>
+        <li>🌯 Kyllingwrap - 69 kr</li>
+      </ul>
+    </section>
+
+    <section id="page-omoss" class="page hidden">
+      <h2>Om Oss</h2>
+      <p>BurgerBar startet i en foodtruck i Oslo. Nå er vi kjent for hurtig og deilig mat!</p>
+    </section>
+
+    <section id="page-tilbud" class="page hidden">
       <h2>Dagens Tilbud</h2>
       <p>🔥 Cheeseburger + fries + drikke: kun 99 kr!</p>
     </section>
 
-    <section>
-      <h2>Vår Meny</h2>
-      <ul class="menu-list">
-        <li>🍔 Klassisk Hamburger - 79 kr</li>
-        <li>🍟 Pommes Frites (stor) - 35 kr</li>
-        <li>🌭 Pølse i brød - 29 kr</li>
-        <li>🥤 Milkshake Vanilje/Jordbær/Sjokolade - 49 kr</li>
-        <li>🥪 Kyllingwrap - 69 kr</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Om Oss</h2>
-      <p>BurgerBar startet som en liten foodtruck i Oslo i 2017, og har siden blitt et elsket gatekjøkken med fokus på smak, fart og gode priser.</p>
-    </section>
-
-    <section>
-      <h2>Kontakt</h2>
+    <section id="page-kontakt" class="page hidden">
+      <h2>Kontakt Oss</h2>
       <p>📍 Storgata 22, Oslo<br>📞 22 33 44 55<br>✉️ post@burgerbar.no</p>
     </section>
   </main>

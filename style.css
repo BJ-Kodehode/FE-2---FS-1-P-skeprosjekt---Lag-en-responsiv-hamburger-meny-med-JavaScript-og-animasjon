@@ -153,4 +153,12 @@
       display: none;
     }
   }
+
+  .page {
+    display: block;
+    margin-bottom: 2rem;
+  }
   
+  .hidden {
+    display: none;
+  }
